@@ -45,6 +45,7 @@
 		FB202E1323AD6B2500A1083C /* String+IsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB202E1223AD6B2400A1083C /* String+IsValidEmail.swift */; };
 		FB27EFFC23CD148600C7EA9A /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27EFFB23CD148600C7EA9A /* MapView.storyboard */; };
 		FB5347FA23EA04C30082D262 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5347F923EA04C30082D262 /* Alerts.swift */; };
+		FB5347FE23EB11930082D262 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5347FC23EB11930082D262 /* Model.xcdatamodeld */; };
 		FB58EF1423E08E6000A1AA8B /* RouteResults.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB58EF1323E08E6000A1AA8B /* RouteResults.storyboard */; };
 		FB58EF1623E0D70A00A1AA8B /* RouteResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58EF1523E0D70A00A1AA8B /* RouteResultsViewController.swift */; };
 		FB59BBD223E37C1900D74881 /* AvoidanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59BBD123E37C1900D74881 /* AvoidanceController.swift */; };
@@ -150,6 +151,7 @@
 		FB202E1223AD6B2400A1083C /* String+IsValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+IsValidEmail.swift"; sourceTree = "<group>"; };
 		FB27EFFB23CD148600C7EA9A /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		FB5347F923EA04C30082D262 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		FB5347FD23EB11930082D262 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FB58EF1323E08E6000A1AA8B /* RouteResults.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RouteResults.storyboard; sourceTree = "<group>"; };
 		FB58EF1523E0D70A00A1AA8B /* RouteResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteResultsViewController.swift; sourceTree = "<group>"; };
 		FB59BBD123E37C1900D74881 /* AvoidanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidanceController.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 		D1BCDD81230E0F5D00986A18 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FB5347FB23EB10E90082D262 /* Core Data */,
 				446F3902230DA7FC00D57DE3 /* User.swift */,
 				D185F9552322FABE00E4C64A /* Avoid.swift */,
 				447831E523146AC5007D50E7 /* Vehicle.swift */,
@@ -422,6 +425,14 @@
 				FB67983423CFD32F009E0D87 /* VehicleListTableViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FB5347FB23EB10E90082D262 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB5347FC23EB11930082D262 /* Model.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 		FB59BBD023E35F1000D74881 /* Helpers */ = {
@@ -861,6 +872,7 @@
 				3243787823D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift in Sources */,
 				447831E623146AC5007D50E7 /* Vehicle.swift in Sources */,
 				3291787923E353600043FCF3 /* AGSPortal+AppID.swift in Sources */,
+				FB5347FE23EB11930082D262 /* Model.xcdatamodeld in Sources */,
 				FBD1AFE223C39C6000377F7C /* SKSignupBackground.swift in Sources */,
 				FB954F6323D60CA900E638BE /* ARSStatus.swift in Sources */,
 				32F788B023AAA0B400C234FC /* UserDefaults+Extension.swift in Sources */,
@@ -1088,6 +1100,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB5347FC23EB11930082D262 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB5347FD23EB11930082D262 /* Model.xcdatamodel */,
+			);
+			currentVersion = FB5347FD23EB11930082D262 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D18DAE64230B3C3C00D7C151 /* Project object */;
 }
