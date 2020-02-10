@@ -34,6 +34,12 @@ class SelectLocationTextField: NibDesignableControl {
             setNeedsDisplay()
         }
     }
+    @IBInspectable public var _cornerRadius: CGFloat = 4 {
+        didSet{
+            containerView.layer.cornerRadius = _cornerRadius
+            setNeedsDisplay()
+        }
+    }
     
     // MARK: - IBOutlets
     
@@ -78,6 +84,7 @@ class SelectLocationTextField: NibDesignableControl {
         tap.numberOfTapsRequired = 1
         tap.numberOfTouchesRequired = 1
         containerView.addGestureRecognizer(tap)
+        containerView.layer.cornerRadius = _cornerRadius
     }
 }
 

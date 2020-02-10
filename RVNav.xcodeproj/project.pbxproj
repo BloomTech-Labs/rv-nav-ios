@@ -528,8 +528,8 @@
 			isa = PBXGroup;
 			children = (
 				FBAA2B7723A8381100D6E4B7 /* Custom Views */,
-				FBAA2B7623A8378500D6E4B7 /* View Controllers */,
 				FBAA2B7523A8376D00D6E4B7 /* Storyboards */,
+				FBAA2B7623A8378500D6E4B7 /* View Controllers */,
 			);
 			path = "Signup+SignIn";
 			sourceTree = "<group>";
@@ -1037,7 +1037,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = "$(SRCROOT)/RVNav/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -1061,7 +1061,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = "$(SRCROOT)/RVNav/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;

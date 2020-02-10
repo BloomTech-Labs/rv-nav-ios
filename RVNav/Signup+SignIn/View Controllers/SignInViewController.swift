@@ -31,7 +31,7 @@ class SignInViewController: ShiftableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // forces app to use light mode to match design from Labs15
+        // forces app to use light mode to match design from Labs17
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light
         }

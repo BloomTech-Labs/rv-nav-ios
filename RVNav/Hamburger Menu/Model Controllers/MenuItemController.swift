@@ -17,7 +17,8 @@ class MenuItemController {
         self.sections.append(MenuItemSection(name: MenuItemController.sectionNames[0], order: 0, menuItems: [
             MenuItem(label: "Street", imageName: "map", order: 0, segueID: "", selector: "map_street"),
             MenuItem(label: "Satelite", imageName: "satelite", order: 1, segueID: "", selector: "map_sat"),
-            MenuItem(label: "Terrain", imageName: "terrain", order: 2, segueID: "", selector: "map_ter")]))
+            MenuItem(label: "Terrain", imageName: "terrain", order: 2, segueID: "", selector: "map_ter"),
+            MenuItem(label: "Night", imageName: "nightMode", order: 2, segueID: "", selector: "map_night")]))
         self.sections.append(MenuItemSection(name: MenuItemController.sectionNames[1], order: 1, menuItems: [
             MenuItem(label: "My Vehicles", imageName: "car", order: 0, segueID: "ShowVehichleInfo", inMenu: true),
             MenuItem(label: "Plan A Route", imageName: "navigation-diagonal", order: 1, segueID: "PlanARoute", inMenu: true),

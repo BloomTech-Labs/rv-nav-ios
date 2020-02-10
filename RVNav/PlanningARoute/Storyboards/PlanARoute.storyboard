@@ -88,6 +88,11 @@
                                             <constraint firstAttribute="height" constant="45" id="0ZY-J1-Fl7"/>
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="jon-sM-IoG"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="openSelectLocation:" destination="dBe-uT-XvF" eventType="touchUpInside" id="YnZ-rn-FwU"/>
                                         </connections>

@@ -14,6 +14,7 @@ enum UserControllerError: Error {
 }
 
 class UserController: UserControllerProtocol {
+    // MARK: - Properties
     static let shared = UserController()
     var delegate: UserControllerDelegateProtocol?
     let networkController: NetworkControllerProtocol
@@ -26,6 +27,7 @@ class UserController: UserControllerProtocol {
     private(set) var hasToken: Bool = false
     private let useridKey: String = "currentUserID"
     
+    // MARK: - Public Methods
     init (networkController: NetworkControllerProtocol = WebRESTAPINetworkController()) {
         self.networkController = networkController
         let savedID = userDefaults.integer(forKey: useridKey)

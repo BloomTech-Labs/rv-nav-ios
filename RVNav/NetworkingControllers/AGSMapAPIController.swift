@@ -124,6 +124,14 @@ class AGSMapAPIController: NSObject, MapAPIControllerProtocol, AGSGeoViewTouchDe
         }
     }
     
+    
+    /*
+     The addresses used here:
+     1119 S Summit St, Little Rock Arkansas
+     1923 W 10th st, Little Rock Arkansas
+     
+     They demonstrate routing around low clearance well and quickly.
+     */
     public func testRoute() {
         let startCoord = CLLocationCoordinate2D(latitude: 34.740070, longitude: -92.295000)
         let endCoord = CLLocationCoordinate2D(latitude: 34.741428, longitude: -92.294998)
